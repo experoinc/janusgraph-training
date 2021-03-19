@@ -4,7 +4,7 @@ Download the training zip and unzip.
 # Mac/Linux
 From the newly unzipped directory run:
 
-`./bin/janusgraph start`
+`./bin/gremlin-server.sh conf/gremlin-server/gremlin-server-berkeleyje-configuration.yaml`
 
 After it starts, run ./bin/gremlin.sh and the following commands:
 
